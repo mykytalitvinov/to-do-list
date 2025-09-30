@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+border-sizing: border-box;
+
+}
+
+.todo {
+min-height: 100vh;
+background-color: black;
+font-family: sans-serif;
+padding: 20px;
+
+
+}
+
+.todo__box {
+max-width: 600px;
+border-radius: 10px;
+background-color: white;
+padding: 40px 30px 70px;
+margin: 100px auto 20px;
+}
+
+.todo__title{
+font-weight: 300;
+font-aling:center;
+font-size: 20px;
+text-transform: uppercase;
+margin-bottom: 20px;
+
+}
+
+.todo__row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: sienna;
+border-radius: 30px;
+
+}
+
+.todo__input {}
+
+.todo__btn {}
+
+.todo__list {}
