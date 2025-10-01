@@ -37,11 +37,36 @@ justify-content: space-between;
 align-items: center;
 background-color: sienna;
 border-radius: 30px;
+margin-bottom: 30px;
+padding-left: 10px;
 
 }
 
-.todo__input {}
+.todo__input {
+  background-color: #transparent;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  
+  
+  
+  
+}
 
-.todo__btn {}
+.todo__btn {
+border:none;
+outline: none;
+padding: 16px 30px;
+backgroun-color:#03793b;
+font-size:16px
+curso r:pointer;
+border-radius:30px;
+  
+
+  
+}
+
 
 .todo__list {}
